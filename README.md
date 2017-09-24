@@ -9,7 +9,7 @@ Build the docker image:
 sudo docker build -t springclinic .
 
 Run the image:
-sudo docker run -p 8080:8080 springclinic
+sudo docker run -p 8080:8080 firwayer/docker_spring_petclinic
 
 Access to the container:
 sudo docker ps ==> got an ID
